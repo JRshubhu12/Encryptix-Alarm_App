@@ -1,0 +1,115 @@
+.desktop {
+  position: absolute;
+  right: -5px;
+  background-color: #132239;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 800px;
+  width: 500px;
+}
+
+.alarm-list-container {
+  padding: 20px;
+}
+
+.alarm-list {
+  position: absolute;
+  left: 150px;
+  max-height: 400px;
+  width: 300px;
+  overflow-y: auto;
+  background-color: white;
+  border: 1px solid #e65656;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.alarm-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.alarm-details {
+  flex-grow: 1;
+}
+
+.alarm-name,
+.alarm-status {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.alarm-time {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.toggle-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  background-color: #45a049;
+}
+
+.go-back-link {
+  position: absolute;
+  top: 500px;
+  right: 200px;
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.go-back-link:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.9rem 1.8rem;
+  font-size: 16px;
+  font-weight: 700;
+  top: 600px;
+  left: 250px;
+  color: white;
+  border: 3px solid rgb(252, 70, 100);
+  cursor: pointer;
+  position: absolute;
+  background-color: transparent;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  font-family: inherit;
+ }
+ 
+ .btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(252, 70, 100);
+  transform: translateX(-100%);
+  transition: all .3s;
+  z-index: -1;
+ }
+ 
+ .btn:hover::before {
+  transform: translateX(0);
+ }
+ .text{
+  color: #ddd;
+ }

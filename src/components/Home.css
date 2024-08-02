@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Impact&display=swap');
+
+.desktop {
+    position: absolute;
+    right: -5px;
+    background-color: #132239;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 800px;
+    width: 500px;
+    }
+
+    .image {
+        height: 46px;
+        width: 46px;
+    }
+    
+    .image .img {
+        height: 46px;
+        left: 300px;
+        object-fit: cover;
+        position: fixed;
+        top: 10px;
+        width: 46px;
+    }
+    .label {
+        height: 90px;
+        width: 283px;
+    }
+    
+    .label .text-wrapper {
+        color: #ffffff;
+        @import url('https://fonts.googleapis.com/css2?family=Kumar+One&display=swap');
+        font-family: "Kumar One", serif;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        left: 100px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: fixed;
+        top: 60px;
+        width: 283px;
+    }
+    .box {
+        height: 217px;
+        width: 360px;
+    }
+    
+    .box .group {
+        height: 217px;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 360px;
+    }
+    
+    .box .overlap-group {
+        height: 217px;
+        position: relative;
+    }
+    
+    .box .image {
+        height: 217px;
+        left: 123px;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        width: 237px;
+    }
+    
+    .box .img {
+        height: 217px;
+        left: 80px;
+        object-fit: cover;
+        position: absolute;
+        top: 180px;
+        width: 237px;
+    }
+    .button{
+        position: absolute;
+        top: 360px;
+        left: 220px;
+        background-color: transparent;
+        text-decoration-color: #f3f3f3;
+    }
+    .text-wrapper-greeting{
+        position: absolute;
+        top: 50px;
+        left: 30px;
+        color: #080707;
+    }
+    .image{
+        all: unset;
+        box-sizing: border-box;
+        width: 200px;
+        height: 100px;
+    }
+    .emogi{
+        position: absolute;
+        top: 20px;
+        left: 130px;
+        height: 42px;
+    }
+    .user{
+        position: absolute;
+        font-family:'Courier New', Courier, monospace;
+        font-size: large;
+        color: #0470E3;
+        top: 20px;
+        font-weight: 100;
+        left: 50px;
+    }
+    .footer {
+        position: fixed;
+        height: 67px;
+        width: 360px;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        background: linear-gradient(
+180deg,
+rgb(44.89, 253, 86.51) 0%,
+rgb(44.89, 253, 86.51) 33.43%,
+rgb(0.18, 181.73, 36.21) 100%
+);
+        text-align: center;
+        padding: 10px;
+        border-radius: 22px;
+      }
+      .imgbell{
+        position: absolute;
+        top: 120px;
+      }
+      .alarms-container {
+        margin-top: 20px;
+        background-color: #0470E3;
+      }
+      
+      .alarm-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      
+      .alarm-name, .alarm-time, .alarm-day {
+        margin-right: 10px;
+      }
+      .img{
+        position: absolute;
+        top: 150px;
+        left: 50px;
+      }
+      .box {
+        height: 146px;
+        width: 360px;
+      }
+      
+      .box .rectangle {
+        background: linear-gradient(180deg, rgb(3, 45, 177) 0%, rgb(8, 12, 62) 100%);
+        border-radius: 21px;
+        height: 146px;
+        left: 0;
+        position: fixed;
+        top: 500px;
+        width: 360px;
+      }
+      .styled-alarm {
+        position: absolute;
+        font-family: "Jomolhari-Regular", Helvetica;
+        left: 80px;
+        color: #ffffff;
+        top: 60px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 5px 0;
+        background-color: transparent;
+        transition: background-color 0.3s;
+    }
+    
+    .styled-alarm:hover {
+        background-color: #29e3fc; /* Light blue on hover */
+    }
+    
+    .styled-alarm input {
+        margin-right: 10px;
+    }
+    .alarm-name{
+        position: absolute;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        top: 100px;
+        left: 100px;
+        height: 600px;
+        color: #ff0000;
+    }
+    .alarm-image{
+        position: absolute;
+        left: -90px;
+        top: -40px;
+    }
+    .no-alarm{
+        position: absolute;
+        left: 100px;
+        top: 60px;
+        font-size: x-large;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #ffffff;
+    }
+    .profile{
+        position: absolute;
+        top: 710px;
+        left: 140px;
+        z-index: 999;
+    }
+    .add {
+        position: absolute;
+        top: 710px;
+        left: 280px;
+        z-index: 999;   
+        height: 58px; 
+        width: 61px;    
+        transition: transform 0.2s; /* Add transition for smooth animation */
+    }
+
+    .add:hover {
+        transform: scale(1.1); /* Scale up on hover */
+    }
+    .save{
+        position: absolute;
+        top: 710px;
+        left: 420px;
+        z-index: 999;
+    }
+    /* src/components/Home.css */
+
+/* src/components/Home.css */
+
+.alarm-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .alarm-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  
+  .alarm-name {
+    position: absolute;
+    top: 200px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .alarm-time {
+    position: absolute;
+    top: -50px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+  }
+  
+  .alarm-days {
+    font-style: italic;
+  }
+  
